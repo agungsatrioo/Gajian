@@ -1,0 +1,131 @@
+@import url("files/animate.css");
+@import url("files/ui-fonts.css");
+@import url("files/material-icons.css");
+@import url("files/login.css");
+
+.delete {
+	color: red
+}
+
+.two:hover,.edit:hover,.delete:hover {
+	background-color: #87D37C
+}
+
+.padded {
+	padding-left:40px;
+	padding-right:30px
+}
+
+
+.edit {
+	color:skyblue
+}
+
+.msg {
+	border: 1px white solid;
+	margin: 5px;
+	padding:5px
+}
+
+hr {
+	border: 1px white solid
+}
+
+body,p,a {
+	margin:0;
+}
+
+a {
+	text-decoration:none !important;
+	color:white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin:0;
+	font-weight:normal
+}
+
+table {
+	margin: 0 auto !important;
+	color: white;
+	border-collapse: collapse;
+}
+
+table th {
+	background-color: #16A085
+}
+
+table tr.odd  td, table tr.even  td{
+	padding:5px
+}
+
+table tr.odd  td{
+	background-color: #2ABB9B
+}
+
+table tr.even td{
+	background-color: ##36D7B7
+}
+
+#home-page {
+	background-color:#049372;
+	background-size:cover;
+	height: 100vh;
+	color:white;
+	font-family:'Roboto-Regular'
+}
+
+#home-page #home-panel {
+	width:72vw;
+	height: auto;
+	border: 1px white solid;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+    left: 50%;
+	margin: 0 auto;
+	vertical-align:middle;
+	padding:3px;
+}
+
+#home-page #home-panel h1 {
+	font-family:'Roboto-Bold'
+}
+
+#home-page #home-panel #description {
+	float: right;
+}
+
+#home-page #home-panel nav ul {
+	padding:2px;
+	margin:0
+}
+
+#home-page #home-panel nav ul li {
+	display:inline;
+	padding:3px;
+	background-image: linear-gradient(to right,
+                                     #48CFAD,
+                                     #48CFAD 50%,
+                                     transparent 50%,
+                                     transparent);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .2s ease-in;
+}
+
+#home-page #home-panel nav ul li:hover {
+	background-position: 0 0;
+}
+
+#home-page #home-panel #lists {
+	height: 50vh;
+	border: 1px white solid;
+	margin: 5px;
+	padding: 5px;
+	overflow:scroll
+}
+
+#home-page #home-panel #lists p {
+	text-align: center;
+}
